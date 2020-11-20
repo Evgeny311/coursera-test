@@ -1,0 +1,183 @@
+*{
+	font-family: Arial;
+	font-variant-east-asian: ruby;
+	box-sizing: border-box;
+	}
+
+/* Large screen */
+
+@media (min-width: 992px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+
+	.col-md-1 {
+	width: 8.33%;
+	}
+	.col-md-2 {
+	width: 16.66%;
+	}
+	.col-md-3 {
+	width: 25.00%;
+	}
+	.col-md-4 {
+	width: 33.33%;
+	}
+	.col-md-5 {
+	width: 41.66%;
+	}
+	.col-md-6 {
+	width: 50%;
+	}
+	.col-md-7 {
+	width: 58.33%;
+	}
+	.col-md-8 {
+	width: 66.66%;
+	}
+	.col-md-9 {
+	width: 75%;
+	}
+	.col-md-10 {
+	width: 83.33%;
+	}
+	.col-md-11 {
+	width: 91.66%;
+	}
+	.col-md-12 {
+	width: 100%;
+	}
+}
+
+
+/* Medium screen */
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-sl-1, .col-sl-2, .col-sl-3, .col-sl-4, .col-sl-5, .col-sl-6,
+	.col-sl-7, .col-sl-8, .col-sl-9, .col-sl-10, .col-sl-11, .col-sl-12,
+
+	.col-sl-1 {
+	width: 8.33%;
+	}
+	.col-sl-2 {
+	width: 16.66%;
+	}
+	.col-sl-3 {
+	width: 25.00%;
+	}
+	.col-sl-4 {
+	width: 33.33%;
+	}
+	.col-sl-5 {
+	width: 41.66%;
+	}
+	.col-sl-6 {
+	width: 50%;
+	}
+	.col-sl-7 {
+	width: 58.33%;
+	}
+	.col-sl-8 {
+	width: 66.66%;
+	}
+	.col-sl-9 {
+	width: 75%;
+	}
+	.col-sl-10 {
+	width: 83.33%;
+	}
+	.col-sl-11 {
+	width: 91.66%;
+	}
+	.col-sl-12 {
+	width: 100%;
+	}
+}
+/* Small screen */
+
+@media (max-width: 767px){
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+	.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, 
+	
+	.col-xs-1 {
+	width: 8.33%;
+	}
+	.col-xs-2 {
+	width: 16.66%;
+	}
+	.col-xs-3 {
+	width: 25.00%;
+	}
+	.col-xs-4 {
+	width: 33.33%;
+	}
+	.col-xs-5 {
+	width: 41.66%;
+	}
+	.col-xs-6 {
+	width: 50%;
+	}
+	.col-xs-7 {
+	width: 58.33%;
+	}
+	.col-xs-8 {
+	width: 66.66%;
+	}
+	.col-xs-9 {
+	width: 75%;
+	}
+	.col-xs-10 {
+	width: 83.33%;
+	}
+	.col-xs-11 {
+	width: 91.66%;
+	}
+	.col-xs-12 {
+	width: 100%;
+	}
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+	color: #002366;	
+}
+
+div{
+	float: left;
+	padding: 5px;
+	padding-top: 0px;
+}
+
+div > div{
+	width: 100%;
+	margin: 5px;
+	border:1px solid;
+	padding: 10px;
+	padding-top: 30px;
+	background-color: #F4FDD3;
+	border-radius: 5px;
+}
+p {
+	position: relative;
+	top: -51px;
+	right: -11px;
+	float: right;
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	border-top-right-radius: 5px;
+}
+#s1{
+	background-color: #FFF917;
+}
+#s2{
+	background-color: #B22222;
+	color: white;
+}
+#s3{
+	background-color: #FF8C69;
+}
